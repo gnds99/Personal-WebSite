@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* estos son todos los estilos del header*/
+header{
+	background: url("img/bg-header.jpg");
+	height: 659px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	font-family: 'Raleway', Bold;
+}
+.separacion{
+	margin-top: 80px;
+}
+.separacion2{
+	margin-top: 100px;
+}
+.icono-menu{
+	font-size: 50px;
+	color: white;
+	cursor: pointer;
+
+}
+#arreglo{
+	padding-top: 25px;
+}
+ol li{
+	display: inline-block;
+	padding: 15px;
+	padding-top: 3px;
+	color: white;
+	font-size: 26px;
+	margin-left: -15px;
+	font-family: 'Roboto', Light; 
+}
+/* Menu*/
+.container-menu{
+	width: 100%;
+	height: 87vh;
+	background: gray;
+	position: fixed;
+	opacity: .9;
+	top: 0;
+	left: 0;
+
+}
+.redes-close font{
+	position: absolute;
+	right: 20px;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+	transition: all 300ms;
+}
+.redes-close font:hover{
+	transform: rotate(180deg);
+}
+.container-menu ul{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.container-menu ul li{
+	text-align: center;
+	list-style: none;
+	padding: 10px;
+}
+.container-menu ul li a{
+	color: white;
+	font-size: 28px;
+	text-decoration: none;
+	position: relative;
+
+}
+.container-menu ul li a:before{
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	width: 0px;
+	height: 2px;
+	background: white;
+	transition: all 300ms;
+}
+.container-menu ul li a:hover:before{
+	width: 120%;
+
+}
+/* paul lapkin*/
+.letras{
+	font-size: 61px;
+	letter-spacing: 15px;
+	color: white;
+}
+#decoracion:after, #decoracion:before{
+	content: "";
+	width: 535px;
+	height: 2px;
+	background: white;
+	display: block;
+	margin: 5px 95px;
+/* Aqui terminan los Estilos del header*/
