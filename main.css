@@ -101,3 +101,32 @@ ol li{
 	display: block;
 	margin: 5px 95px;
 /* Aqui terminan los Estilos del header*/
+
+
+/*aqui empieza fer*/
+}
+p{
+	font-family: 'Roboto', Light;
+}
+h6{
+	font-family: 'Roboto', Bold;
+}
+.separacion{
+	margin-top: 50px;
+}
+.editar{
+	padding-top: px;
+	background: #ff2b4a;
+	color: #fff;
+	text-align: center;
+	display: block;
+	width: 175px;
+	height: 45px;
+	padding: 8px 0;
+	font-weight: normal;
+	font-size: 16px;
+}
+.editar:hover{
+	text-decoration: none;
+	background: blue;
+	color: white;
