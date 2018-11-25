@@ -26,6 +26,10 @@ header{
 }
 #arreglo{
 	padding-top: 25px;
+	padding-left: 150px;
+}
+#arreglo2{
+	padding-right: 150px;
 }
 ol li{
 	display: inline-block;
@@ -89,8 +93,8 @@ ol li{
 }
 /* paul lapkin*/
 .letras{
-	font-size: 61px;
-	letter-spacing: 15px;
+	font-size: 60px;
+	letter-spacing: 14px;
 	color: white;
 }
 #decoracion:after, #decoracion:before{
@@ -99,5 +103,85 @@ ol li{
 	height: 2px;
 	background: white;
 	display: block;
-	margin: 5px 95px;
+	margin: auto auto;
+}
 /* Aqui terminan los Estilos del header*/
+/*Estilos de la seccion de testimoniales*/
+#testimonial{
+	background: #64cbc0;
+}
+#fuente{
+	margin-top: 40px;
+	font-family: 'Roboto', Regular;
+}
+#fuente2{
+	padding-top: 40px;
+	font-family: 'Roboto', Bold;
+}
+#top{
+	padding-top: 40px;
+}
+#comilla{
+	margin-top: 180px;
+}
+
+/*aqui termina la seccion de testimoniales*/
+/*edicion responsive de todo el header para dispositivos muy pequeños*/
+
+@media (max-width: 575.98px) { 
+/*edicion responsive del nav*/	
+	#arreglo{
+	padding-top: 55px;
+	padding-left: 75px;
+	}
+	#arreglo2{
+		padding-top: 35px;
+		padding-right: 75px;	
+	}
+	.separacion{
+		margin-top: 20px;
+	}
+/*edicion responsive del carrusel*/	
+	.separacion2{
+		margin-top: 150px;
+	}
+	.letras{
+		font-size: 40px;
+		letter-spacing: 8px;
+		color: white;
+	}
+	#decoracion:after, #decoracion:before{
+		content: "";
+		width: 77%;
+		height: 2px;
+		background: white;
+		display: block;
+		margin: auto auto;
+	}
+	ol li{
+		display: inline-block;
+		padding: 7px;
+		padding-top: 1.5px;
+		color: white;
+		font-size: 17px;
+		margin-left: -7px;
+		font-family: 'Roboto', Light; 
+	}
+	/*edicion responsive de testimoniales*/
+}
+/*edicion responsive de todo el header para dispositivos pequeños*/
+@media (max-width: 768px) { 
+	/*edicion responsive del nav*/	
+	#arreglo{
+	padding-top: 55px;
+	padding-left: 55px;
+	}
+	#arreglo2{
+		padding-top: 35px;
+		padding-right: 55px;	
+	}
+	.separacion{
+		margin-top: 10px;
+	}
+	
+}	
