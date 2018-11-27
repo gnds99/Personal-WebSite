@@ -106,6 +106,19 @@ ol li{
 	margin: auto auto;
 }
 /* Aqui terminan los Estilos del header*/
+/* aqui empieza los estilos de descripcion*/
+.editar{
+	padding-top: px;
+	background: #ff2b4a;
+	color: #fff;
+	text-align: center;
+	display: block;
+	width: 175px;
+	height: 45px;
+	padding: 8px 0;
+	font-weight: normal;
+	font-size: 16px;
+}
 /*Estilos de la seccion de testimoniales*/
 #testimonial{
 	background: #64cbc0;
