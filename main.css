@@ -119,6 +119,26 @@ ol li{
 	font-weight: normal;
 	font-size: 16px;
 }
+
+
+
+/*Estilos de la seccion de my lastest work*/
+#portafolio{
+	margin-top: 90px;
+}
+#imagenes{
+	margin-top: 11px;
+	margin-bottom: 80px;
+}
+/* aqui termona la seccion de my lastest work*/
+
+
+
+
+
+
+
+
 /*Estilos de la seccion de testimoniales*/
 #testimonial{
 	background: #64cbc0;
