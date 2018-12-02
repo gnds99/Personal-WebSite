@@ -43,7 +43,7 @@ ol li{
 /* Menu*/
 .container-menu{
 	width: 100%;
-	height: 87vh;
+	height: 660px;
 	background: gray;
 	position: fixed;
 	opacity: .9;
@@ -105,8 +105,16 @@ ol li{
 	display: block;
 	margin: auto auto;
 }
-/* Aqui terminan los Estilos del header*/
-/* aqui empieza los estilos de descripcion*/
+/*Estilos de la seccion descripcion*/
+#top{
+	margin-top: 150px;
+}
+#distancia{
+	margin-top: 20px;
+}
+.separacion{
+	margin-top: 50px;
+}
 .editar{
 	padding-top: px;
 	background: #ff2b4a;
@@ -119,26 +127,74 @@ ol li{
 	font-weight: normal;
 	font-size: 16px;
 }
-
-
-
-/*Estilos de la seccion de my lastest work*/
-#portafolio{
-	margin-top: 90px;
+.editar:hover{
+	text-decoration: none;
+	background: blue;
+	color: white;
 }
-#imagenes{
-	margin-top: 11px;
+/*Estilos Seccion my working*/
+#bg{
+	background: #f6f6f6;
+}
+.rectangulo1{
+	background: #10c6fc;
+	height: 270px;
+	width: 270px;
+	margin-bottom: 80px;
+	margin-top: 40px;
+}
+.rectangulo2{
+	background: #835aeb;
+	height: 270px;
+	width: 270px;
+	margin-top: 40px;
+}
+.rectangulo3{
+	background: #002453;
+	height: 270px;
+	width: 270px;
+	margin-top: 40px;
+}
+.rectangulo4{
+	background: #ff2b4a;
+	height: 270px;
+	width: 270px;
+	margin-top: 40px;
+}
+.icono1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+i{
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: white;
+}
+/*Estilos de la seccion my lastest work*/
+.flex{
+	display: flex;
+}
+.rectangulo5{
+	background: #835aeb;
+	height: 270px;
+	width: 555px;
+	margin-top: -60px;
 	margin-bottom: 80px;
 }
-/* aqui termona la seccion de my lastest work*/
-
-
-
-
-
-
-
-
+.rectangulo33{
+	background: #002453;
+	height: 270px;
+	width: 270px;
+	margin-top: -60px;
+}
+.rectangulo44{
+	background: #ff2b4a;
+	height: 270px;
+	width: 270px;
+	margin-top: -60px;
+}
 /*Estilos de la seccion de testimoniales*/
 #testimonial{
 	background: #64cbc0;
@@ -157,64 +213,88 @@ ol li{
 #comilla{
 	margin-top: 180px;
 }
-
-/*aqui termina la seccion de testimoniales*/
-/*edicion responsive de todo el header para dispositivos muy pequeños*/
-
-@media (max-width: 575.98px) { 
-/*edicion responsive del nav*/	
-	#arreglo{
-	padding-top: 55px;
-	padding-left: 75px;
-	}
-	#arreglo2{
-		padding-top: 35px;
-		padding-right: 75px;	
-	}
-	.separacion{
-		margin-top: 20px;
-	}
-/*edicion responsive del carrusel*/	
-	.separacion2{
-		margin-top: 150px;
-	}
-	.letras{
-		font-size: 40px;
-		letter-spacing: 8px;
-		color: white;
-	}
-	#decoracion:after, #decoracion:before{
-		content: "";
-		width: 77%;
-		height: 2px;
-		background: white;
-		display: block;
-		margin: auto auto;
-	}
-	ol li{
-		display: inline-block;
-		padding: 7px;
-		padding-top: 1.5px;
-		color: white;
-		font-size: 17px;
-		margin-left: -7px;
-		font-family: 'Roboto', Light; 
-	}
-	/*edicion responsive de testimoniales*/
+#abajo{
+	margin-bottom: 80px;
 }
-/*edicion responsive de todo el header para dispositivos pequeños*/
-@media (max-width: 768px) { 
-	/*edicion responsive del nav*/	
-	#arreglo{
-	padding-top: 55px;
-	padding-left: 55px;
-	}
-	#arreglo2{
-		padding-top: 35px;
-		padding-right: 55px;	
-	}
-	.separacion{
-		margin-top: 10px;
-	}
-	
-}	
+/*Estilos de la seccion formulario*/
+#bg2{
+	background: url("img/bg-header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+.bg3{
+	background: url("img/bg-header.jpg");
+}
+#titulo{
+	margin-top: 40px;
+	margin-left: 18px;
+}
+.caja{
+	color: white;
+	margin-top: 15px;
+	background: none;
+	border: solid white 1px;
+	width: 495px;
+	height: 40px;
+	margin-left: 18px;
+}
+.caja2{
+	color: white;
+	margin-top: 15px;
+	background: none;
+	border: solid white 1px;
+	width: 495px;
+	height: 240px;
+	margin-left: 18px;
+}
+#pnombre::placeholder {
+        color: white;
+}
+#distancia2{
+    margin-left: 338px;
+    margin-top: 21px;
+    margin-bottom: 42px;
+}
+/*segundos formularios*/
+.bg4{
+	background: url("img/bg-header.jpg");
+	margin-bottom: 15px;
+	height: 192px;
+	color: white;
+}
+#title{
+	padding-top: 45px;
+}
+#contenido{
+	padding-top: 15px;
+}
+/*estilos del footer*/
+footer{
+	background: #222222;
+}
+i{
+	font-size: 25px;
+}
+i:after{
+	margin-top: 40px;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: inline-block;
+	content: "";
+	width: 2px;
+	height: 20px;
+	background: white;
+
+}
+#final{
+	margin-bottom: 40px;
+}
+
+
+/*					rem
+					h5{font-size: 20px;}
+					h5{font-size: 20px;}
+					@media screen and (max-width: 992px){
+					
+				}*/
