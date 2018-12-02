@@ -10,7 +10,10 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
-	font-family: 'Raleway', Bold;
+	font-family: 'Raleway', sans-serif;
+}
+main{
+	font-family: 'Roboto', sans-serif;
 }
 .separacion{
 	margin-top: 80px;
@@ -36,9 +39,8 @@ ol li{
 	padding: 15px;
 	padding-top: 3px;
 	color: white;
-	font-size: 26px;
+	font-size: 22px;
 	margin-left: -15px;
-	font-family: 'Roboto', Light; 
 }
 /* Menu*/
 .container-menu{
@@ -132,6 +134,27 @@ ol li{
 	background: blue;
 	color: white;
 }
+/*Estilo Seccion Historia*/
+#section3{
+	background: url("img/bg-header.jpg");
+	height: 650px;
+}
+#large{
+	margin-top: 35px;
+	margin-bottom: 45px;
+	margin-left: 20px;
+}
+#centradito{
+	margin-left: 20px;
+}
+.horizontal:after{
+	margin-top: 15px;
+	content: "";
+	width: 400px;
+	height: 2px;
+	background: white;
+	display: block;
+}
 /*Estilos Seccion my working*/
 #bg{
 	background: #f6f6f6;
@@ -201,11 +224,9 @@ i{
 }
 #fuente{
 	margin-top: 40px;
-	font-family: 'Roboto', Regular;
 }
 #fuente2{
 	padding-top: 40px;
-	font-family: 'Roboto', Bold;
 }
 #top{
 	padding-top: 40px;
@@ -224,7 +245,7 @@ i{
 	height: 800px;
 }
 .bg3{
-	background: url("img/bg-header.jpg");
+	background: #5a657e;
 }
 #titulo{
 	margin-top: 40px;
@@ -258,16 +279,18 @@ i{
 }
 /*segundos formularios*/
 .bg4{
-	background: url("img/bg-header.jpg");
+	background: #5a657e;
 	margin-bottom: 15px;
 	height: 192px;
 	color: white;
 }
 #title{
 	padding-top: 45px;
+	margin-left: 25px;
 }
 #contenido{
 	padding-top: 15px;
+	margin-left: 25px;
 }
 /*estilos del footer*/
 footer{
@@ -276,7 +299,7 @@ footer{
 i{
 	font-size: 25px;
 }
-i:after{
+.vertical:after{
 	margin-top: 40px;
 	margin-left: 15px;
 	margin-right: 15px;

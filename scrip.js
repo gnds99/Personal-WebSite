@@ -16,7 +16,6 @@ $('.icono-menu').on('click', function(){
     
 })
 
-
 $('.close').on('click', function(){
     
     $('.container-menu').animate({
@@ -25,3 +24,4 @@ $('.close').on('click', function(){
     $('main').removeClass("main2");
     
 })
+
