@@ -1,0 +1,31 @@
+
+.main-footer .social{
+    margin-bottom:10px;
+    text-align: right;
+}
+.main-footer .social a{
+    color:#c3bec2;
+    font-size:15px;
+}
+.main-footer .social a:hover{
+    color:#ff2b4a;
+}
+.main-footer .social a i{
+    border-right:1px solid #c3bec2;
+    padding:0 10px 0 10px;
+}
+.main-footer .social a i.dribbble{
+    border-right:0;
+}
+.main-footer p{
+    color:#c3bec2;
+    font-size:12px;
+    text-align: right; 
+}
+.container{
+    bottom: 0;
+    position: fixed;
+    background-color: #222222;
+    line-height: 3;
+    width: 100%;
+}
