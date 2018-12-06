@@ -34,14 +34,6 @@ main{
 #arreglo2{
 	padding-right: 150px;
 }
-ol li{
-	display: inline-block;
-	padding: 15px;
-	padding-top: 3px;
-	color: white;
-	font-size: 22px;
-	margin-left: -15px;
-}
 /* Menu*/
 .container-menu{
 	width: 100%;
@@ -107,7 +99,18 @@ ol li{
 	display: block;
 	margin: auto auto;
 }
+ol li{
+	display: inline-block;
+	padding: 15px;
+	padding-top: 3px;
+	color: white;
+	font-size: 22px;
+	margin-left: -15px;
+}
 /*Estilos de la seccion descripcion*/
+#bg{
+	width: 100%
+}
 #top{
 	margin-top: 150px;
 }
@@ -134,6 +137,7 @@ ol li{
 	background: blue;
 	color: white;
 }
+
 /*Estilo Seccion Historia*/
 #section3{
 	background: url("img/bg-header.jpg");
@@ -313,6 +317,9 @@ i{
 #final{
 	margin-bottom: 40px;
 }
+
+/*Dispositivos medianos*/
+
 
 
 /*					rem

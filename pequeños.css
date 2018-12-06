@@ -1,0 +1,60 @@
+@media screen and (max-width: 576px){
+
+header{
+	background: url("img/bg-header.jpg");
+	height: 659px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+}
+.separacion{
+	margin-top: 60px;
+}
+.separacion2{
+	margin-top: 140px;
+}
+.icono-menu{
+	color: white;
+	cursor: pointer;
+
+}
+#arreglo{
+	padding-top: 25px;
+	padding-left: 50px;
+}
+#arreglo2{
+	padding-right: 50px;
+}
+/* paul lapkin*/
+.letras{
+	font-size: 30px;
+	letter-spacing: 18px;
+	color: white;
+}
+#decoracion:after, #decoracion:before{
+	content: "";
+	width: auto;
+	height: 2px;
+	background: white;
+	display: block;
+	margin: auto auto;
+}
+ol li{
+	display: inline-block;
+	padding: 14px;
+	padding-top: 3px;
+	color: white;
+	font-size: 16px;
+	margin-left: -15px;
+}
+/*esitlos de descripcion*/
+#top{
+	margin-top: 50px;
+}
+.editar{
+
+	margin-bottom: 80px;
+}
+
+}
