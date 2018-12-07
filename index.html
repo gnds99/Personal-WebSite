@@ -2,48 +2,40 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>prueba</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="main.css">
-
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="ESTILOS.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<title>Personal WebSite</title>
-
 </head>
 <body>
-	<header class="container-fluid">
-		<div class="row">
-			<div id="arreglo"  class="col-6 text-left separacion">
-				<img src="img/logo.png" alt="">
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-6 separacion">
+					<img src="img/logo.png" alt="" id="logo">
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6 text-right separacion icono-menu">
+					<img src="img/prueba.png" alt="" id="menu">
+				</div>
 			</div>
-			<div id="arreglo2" class="col-6 text-right icono-menu separacion">
-				<img src="img/prueba.png" class="tamaño" alt="">
-			</div>
-
-		</div>
-		<div class="row separacion2">
-			<div class="col-md-12">
-				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-				  <div class="carousel-inner">
-				    <div class="carousel-item active text-center">
-				      <h1 id="decoracion" class="letras">PAUL LAPKIN</h1>
-				      <ol>
-				      	<li> #User Experience</li>
-				      	<li> #Music</li>
-				      	<li> #Creative Direction</li>
-				      </ol>
-				    </div>>
-				  </div>
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-4 offset-4 text-center separacion2">
+					<h1 id="title">PAUL LAPKIN</h1>
+					<ol class="text-center">
+						<li>#User Experience</li>
+						<li>#Music</li>
+						<li>#Creative Direction</li>
+					</ol>			
 				</div>
 			</div>
 		</div>
-	</header><!-- cierre del header-->
+	</header>
 	<div class="container-menu">
 		<div class="redes-close">
-			<font class="close"> X</font>
+			<font class="close">X</font>
 		</div>
 		<ul>
 			<li><a href="#SeccionDescripcion">Quién soy?</a></li>
@@ -54,197 +46,175 @@
 			<li><a href="#bg2">Contáctame</a></li>
 		</ul>
 	</div>
-	<main>
-		<section class="container" id="SeccionDescripcion"><!-- section 1-->
+	<section id="descripcion">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-xs-12 separacion2">
-					<img src="img/man.png" alt="">
+				<div class="col-md-6 col-sm-6 col-xs-12" id="man">
+					<img src="img/man.png" alt="" >
 				</div>
-				<div class="col-md-6 col-xs-12" id="top">
-					<h5>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h5>
-					<p class="text-justify" id="distancia">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.
-					</p>
-					<p class="text-justify" id="distancia"> Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
- 					<a href="#" class="editar separacion">Here Me !</a>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div>
+						<h5 id="sub">Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h5>					
+					</div>
+					<div>
+						<p class="text-justify" id="parrafo"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+					</div>
+					<div>
+						<p class="text-justify" id="parrafo"> Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
+					</div>
+					<div>
+						<a href="#" id="boton">Hire Me!</a>
+					</div>
 				</div>
 			</div>
-		</section><!-- termina section 1-->
-
-		<section class="container"><!-- section 2-->
-				<div class="row">
-					<div class="col-md-5 col-xs-5 offset-4 text-center separacion2">
-						<h3>My Working Process</h3>
+		</div>
+	</section>
+	<section id="working">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12 offset-3 text-center">
+					<div class="separacion">
+						<h1>My Working Process</h1>
 						<p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-3 col-xs-6">
+			</div>
+			<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="rectangulo1 icono1">
 								<i class="fas fa-desktop"></i>
 								<p class="text-white">DESIGN</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-xs-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="rectangulo2 icono1">
 								<i class="fas fa-magic"></i>
 								<p class="text-white">DEVELOPMENT</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-xs-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="rectangulo3 icono1">
 								<i class="fas fa-comments"></i>
 								<p class="text-white">TEXTING</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-xs-6">
+					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="rectangulo4 icono1">
 								<i class="fas fa-plane"></i>
 								<p class="text-white">LAUNCH</p>
 						</div>
 					</div>
+			</div>
+		</div>
+	</section>
+	<section id="historia">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12 abajo">
+					<div class="wrapper separacion">
+						<div class="margin text-white">
+							<h4 class="large">Work Experience</h4>
+							<h6 id="subtitulo">Mad Max Design</h6>
+							<p class="text-justify">OCT 2013 - june 2014</p>
+							<p class="text-justify" id="horizontal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br> erat volutpat.</p>
+							<h6 id="subtitulo">Crazy Design</h6>
+							<p class="text-justify">OCT 2014 - june 2015</p>
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br>erat volutpat.</p>
+							<br>
+						</div>
+					</div>
 				</div>
-		</section><!-- termina section 2-->
-
-		<section id="section3"><!-- section 3-->
-			<div class="container">
-				<div class="row">
-					<article class="col-5 offset-1 bg3 text-white separacion2">
-						<div>
-							<h4 id="large">Work Experience</h4>					
+				<div class="col-md-6 col-sm-12 col-xs-12 abajo">
+					<div class="wrapper separacion">
+						<div class="margin text-white" >
+							<h4 class="large">Work Experience</h4>
+							<h6 id="subtitulo">Mad Max Design</h6>
+							<p class="text-justify">OCT 2013 - june 2014</p>
+							<p class="text-justify" id="horizontal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br>erat volutpat.</p>
+							<h6 id="subtitulo">Crazy Design</h6>
+							<p class="text-justify">OCT 2014 - june 2015</p>
+							<p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br>erat volutpat.</p>
+							<br>
 						</div>
-						<div>
-							<h6 id="centradito">Mad Max Design</h6>
-						</div>
-						<div>
-							<p id="centradito">OCT 2013 - june 2014</p>
-						</div>
-						<div>
-							<p id="centradito" class="horizontal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br>erat volutpat.</p>
-						</div>
-						<div>
-							<h6 id="centradito">Crazy Design</h6>
-						</div>
-						<div>
-							<p id="centradito">OCT 2014 - june 2015</p>
-						</div>
-						<div>
-							<p id="centradito">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br> erat volutpat.</p>
-						</div>
-					</article>
-					<article class="col-5 offset-1 bg3 text-white separacion2">
-						<div>
-							<h4 id="large">Education</h4>					
-						</div>
-						<div>
-							<h6 id="centradito">Maddison University</h6>
-						</div>
-						<div>
-							<p id="centradito">OCT 2013 - june 2014</p>
-						</div>
-						<div>
-							<p id="centradito" class="horizontal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br>erat volutpat.</p>
-						</div>
-						<div>
-							<h6 id="centradito">Max Design & Art Institute</h6>
-						</div>
-						<div>
-							<p id="centradito">OCT 2014 - Present</p>
-						</div>
-						<div>
-							<p id="centradito">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam <br> erat volutpat.</p>
-						</div>
-					</article>
-
+					</div>
 				</div>
 			</div>
-		</section><!-- termina section 3-->
-
-		<section class="container" id="SeccionLastest"><!-- section 4-->
+		</div>
+	</section>
+	<section>
+		<div class="container">
 			<div class="row">
-				<div class="col-5 offset-4 text-center separacion2">
-					<h3>My Latest Works</h3>
-					<p>Hi, i’m Paul Lapkin, Experience Crafter from Canada</p>
+				<div class="col-md-6 offset-3">
+					<div>
+						<h1 class="text-center separacion"> My Latest Works</h1>
+						<p class="text-center lejos">Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="rectangulo1"></div>
 				</div>
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="rectangulo2"></div>
 				</div>
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="rectangulo3"></div>
 				</div>
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="rectangulo4"></div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-6">
+				<div class="col-md-6 col-sm-6 col-xs-12">
 					<div class="rectangulo5"></div>
 				</div>
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="rectangulo33"></div>
 				</div>
-				<div class="col-3">
+				<div class="col-md-3 col-sm-6 col-xs-12">
 					<div class="rectangulo44"></div>
 				</div>
 			</div>
-		</section><!-- termina section 4-->
-
-		<section class="container-fluid" id="testimonial"><!-- section 5-->
+		</div>
+	</section>
+	<section id="testimonial"><!-- section 5-->
 			<div class="container" id="testimonial">
 				<div class="row">
-					<div class="col-md-5 col-sm-6 col-xs-12" >
+					<div class="col-md-5 col-sm-6 col-xs-12 abajo" >
 						<article id="abajo">
 						<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
-						    <div id="comilla">
-								<img src="img/comillas.png" alt="">
-							</div>
-							<div id="fuente">
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
-							</div>
-							<div>
-								<img src="img/firma.png" id="top" alt="">
-							</div>
-							<div>
-								<h5 id="fuente2">Deniel Croft</h5>
-								<p>Creative Designer, Levy</p>
-							</div>
+							    <div class="separacion">
+									<img src="img/comillas.png" alt="">
+								</div>
+								<div class="separacion">
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+								</div>
+								<div>
+									<img src="img/firma.png" class="distancia" alt="">
+								</div>
+								<div class="distancia">
+									<h5 >Deniel Croft</h5>
+									<p>Creative Designer, Levy</p>
+								</div>
 						    </div><!-- aqui termina el item-->
 						    <div class="carousel-item">
-						    <div id="comilla">
-								<img src="img/comillas.png" alt="">
-							</div>
-							<div id="fuente">
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
-							</div>
-							<div>
-								<img src="img/firma.png" id="top" alt="">
-							</div>
-							<div>
-								<h5 id="fuente2">Deniel Croft</h5>
-								<p>Creative Designer, Levy</p>
-							</div>
-						    </div>
-						    <div class="carousel-item">
-						    <div id="comilla">
-								<img src="img/comillas.png" alt="">
-							</div>
-							<div id="fuente">
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
-							</div>
-							<div>
-								<img src="img/firma.png" id="top" alt="">
-							</div>
-							<div>
-								<h5 id="fuente2">Deniel Croft</h5>
-								<p>Creative Designer, Levy</p>
-							</div>
-						    </div>
+							    <div class="separacion">
+									<img src="img/comillas.png" alt="">
+								</div>
+								<div class="separacion ">
+									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+								</div>
+								<div>
+									<img src="img/firma.png" class="distancia" alt="">
+								</div>
+								<div class="distancia">
+									<h5 >Deniel Croft</h5>
+									<p>Creative Designer, Levy</p>
+								</div>
+						    </div><!-- aqui termina el item-->
 						  </div>
 						</div>
 						</article>
@@ -252,8 +222,7 @@
 				</div> <!-- aqui termina el row-->
 			</div>
 		</section><!-- termina section 5-->
-
-		<section id="bg2"><!-- section 6-->
+	<section id="bg2"><!-- section 6-->
 			<div class="container">
 				<div class="row">
 					<article class="col-6 bg3 separacion2">
@@ -272,38 +241,36 @@
 						</div>
 						<div>
       						<textarea name=""  cols="35" rows="10" placeholder="Message" class="caja2" id="pnombre"></textarea>
-      					 	<a href="#" class="editar" id="distancia2">Here Me !</a>
+      					 	<a href="#" class="editar distancia2" id="boton">Here Me !</a>
 						</div>
 					</article>
 					<article class="col-6 separacion2">
 						<div class="bg4">
-							<h4 id="title">ADDRESS</h4>
+							<h4 class="margenes">ADDRESS</h4>
 							<p id="contenido">Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
 						</div>
 						<div class="bg4">
-							<h4 id="title">PHONE</h4>
+							<h4 class="margenes">PHONE</h4>
 							<p id="contenido">+880 174 037 6995</p>
 							<p id="contenido">+880 191 448 6969</p>
 						</div>
 						<div class="bg4">
-							<h4 id="title">WEB</h4>
+							<h4 class="margenes">WEB</h4>
 							<p id="contenido">Mail: quicksayed@gmail.com</p>
 							<p id="contenido">Website: dribbble.com/alisayed</p>
 						</div>
 					</article>
 				</div>
 			</div>
-		</section><!-- termina section 6-->
-	</main><!-- cierre del main-->
-
+	</section><!-- termina section 6-->
 	<footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-4 offset-4 text-center">
-					<a href="#"><i class="fab fa-twitter text-danger vertical"></i></a>
-					<a href="#"><i class="fab fa-linkedin-in vertical"></i></a>
-					<a href="#"><i class="fab fa-behance vertical"></i></a>
-					<a href="#"><i class="fas fa-basketball-ball vertical"></i></a>
+					<i class="fab fa-twitter text-danger vertical"></i>
+					<i class="fab fa-linkedin-in vertical"></i>
+					<i class="fab fa-behance vertical"></i>
+					<i class="fas fa-basketball-ball vertical"></i>
 					<div class="text-white">
 						<h6 id="final">Copyright: Ali Sayed, All Rights Reserved</h6>
 					</div>
@@ -312,8 +279,7 @@
 			</div>
 		</div>	
 	</footer><!-- cierre del footer-->
-
-<!-- CDN de javaScrip-->
+	<!-- CDN de javaScrip-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -321,5 +287,6 @@
 <!-- otros CDN de javaScrip-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="scrip.js"></script>
+	
 </body>
 </html>
