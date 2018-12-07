@@ -93,7 +93,7 @@ header{
 }
 #title:after, #title:before{
 	content: "";
-	width: auto;
+	width: 450px;
 	height: 2px;
 	background: white;
 	display: block;
@@ -315,4 +315,84 @@ i{
 }
 #final{
 	margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) and (max-width: 1200px){
+/*subtitulo*/
+ol{
+	margin-left: -80px;
+}
+ol li{
+	font-size: 10px;
+	padding-right: 2px;
+	display: inline-block;
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.rectangulo1{
+	background: #10c6fc;
+	height: 170px;
+	width: 170px;
+	margin-bottom: 80px;
+	margin-top: 40px;
+}
+.rectangulo2{
+	background: #835aeb;
+	height: 170px;
+	width: 170px;
+	margin-top: 40px;
+}
+.rectangulo3{
+	background: #002453;
+	height: 170px;
+	width: 170px;
+	margin-top: 40px;
+}
+.rectangulo4{
+	background: #ff2b4a;
+	height: 170px;
+	width: 170px;
+	margin-top: 40px;
+}
+.rectangulo5{
+	background: #835aeb;
+	height: 170px;
+	width: 350px;
+	margin-top: -60px;
+	margin-bottom: 80px;
+}
+.rectangulo33{
+	background: #002453;
+	height: 170px;
+	width: 170px;
+	margin-top: -60px;
+}
+.rectangulo44{
+	background: #ff2b4a;
+	height: 170px;
+	width: 170px;
+	margin-top: -60px;
+}
+
 }
